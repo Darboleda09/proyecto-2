@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página con ChatGPT</title>
+  <style>
+    body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #2600ff; /* Default background for the entire page */
+    color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+      
+    }
+    header {
+    background: #1e1e1e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        list-style: none;
+        margin-top: 10px;
+        padding: 0; /* Ensures consistent padding */
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda de Motos</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../catalogo.html">Catálogo</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li onclick="verCarrito()"><a href="#">🛒 Carrito (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header> <br><br>
+
+  <div class="container">
+  <h1>Kawasaki Ninja 600 / ZX‑6R</h1>
+  <p>
+    La Ninja 600 / ZX‑6R utiliza el sistema DFI con autodiagnóstico interno: al encender el contacto manteniendo pulsados los botones MODE/RESET (o MODE/RESET del cuentarrevoluciones), el tablero despliega códigos de dos dígitos en LED cada 2s 
+    <br><br>
+    Algunos códigos frecuentes:
+    <ul>
+      <li><strong>11</strong>: fallo del sensor de posición del acelerador (TPS) – circuito abierto o corto.</li>
+      <li><strong>13</strong>: sensor de temperatura del aire de admisión (IAT).</li>
+      <li><strong>32</strong>: servomotor del sub‑throttle (válvula secundaria).</li>
+      <li><strong>34</strong>: sensor/actuador de la válvula butterfly de escape.</li>
+      <li><strong>62</strong>: mal funcionamiento en el servomotor del sub‑throttle.</li>
+      <li><strong>63</strong>: falla del servomotor de la butterfly del escape </li>
+    </ul>
+    Los códigos permanecen en memoria incluso después de apagar o desconectar la batería; se deben borrar vía procedimiento en manual o con herramienta KDS :contentReference[oaicite:7]{index=7}. El código 63 puede ser un defecto de fábrica en el servo, resuelto bajo garantía
+  </p>
+  <img src="https://www.motofichas.com/images/phocagallery/Kawasaki/ninja-zx-6r-2025/10-kawasaki-ninja-zx-6r-2025-estudio-verde-01.jpg" alt="Diagnóstico Ninja 600" width="500" height="300">
+</div>
+</body>
+</html>
