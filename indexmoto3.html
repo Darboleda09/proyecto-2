@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página con ChatGPT</title>
+  <style>
+    body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #2600ff; /* Default background for the entire page */
+    color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+      
+    }
+    header {
+    background: #1e1e1e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        list-style: none;
+        margin-top: 10px;
+        padding: 0; /* Ensures consistent padding */
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda de Motos</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../catalogo.html">Catálogo</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li onclick="verCarrito()"><a href="#">🛒 Carrito (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header> <br><br>
+
+  <div class="container">
+    <h1>BMW F 900 GS</h1>
+    <p>La carrocería de la F 900 GS ha mejorado no solo visual y técnicamente, sino también en términos de confort y seguridad. Los guardamanos aumentan la seguridad. Fabricados de serie en plástico, ofrecen una mayor protección contra el viento y las inclemencias climatológicas. Los guardamanos enduro con varillas metálicas también ofrecen una protección adicional, sobre todo a los conductores de la F 900 GS Trophy que disfrutan con la acción. La preparación para dispositivos de navegación opcional permite fijar de forma segura a la moto un dispositivo de navegación BMW u otros dispositivos, como una cámara de acción.</p>
+    <img src="https://www.moto1pro.com/sites/default/files/bmw-f-900-gs-adventure-2024.jpg" alt="moto3" width="400" height="400" >
+  </div>
+</body>
+</html>

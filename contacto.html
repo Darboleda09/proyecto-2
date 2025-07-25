@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contacto.css"> 
+    <!-- Add font awesome icons  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<header>
+  <h1>Tienda de Motos</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li onclick="verCarrito()"><a href="#">🛒 Carrito (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
+  </header>
+<body>
+  <div class="center">
+  <div class="container"> 
+
+    <H1 class="titulo">FORMULARIO DE CONTACTO</H1>
+    
+        <form action="action_page.php">
+      
+          <label for="fname">Nombres</label>
+          <input type="text" id="fname" name="firstname" placeholder="Nombres..">
+      
+          <label for="lname">Apellidos</label>
+          <input type="text" id="lname" name="lastname" placeholder="Apellidos..">
+      
+          <label for="country">País</label>
+          <select id="country" name="country">
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+            <option value="Mexico">Mexico</option>
+          </select>
+      
+          <label for="subject">-</label>
+          <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+  </div>
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<footer>
+  <p>&copy; 2025 Tienda de Motos</p>
+</footer>
+
+<script src="script.js"></script>
+
+<div class="centrado">
+  <p> Encuentranos en la siguiente direccion de correo electronico darboleda@hotmail.com nuestras lineas de atencion 3122387876 o al pbx 6543498 o gratiutamente al 01800-75648467584 nos encontramos hubicados en la calle 62 numero 30 67 bucaramanga colombia.</p>
+</div>
+</body>
+</html>

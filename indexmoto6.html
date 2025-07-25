@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página con ChatGPT</title>
+  <style>
+    body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #2600ff; /* Default background for the entire page */
+    color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem 0;
+      
+    }
+    header {
+    background: #1e1e1e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        list-style: none;
+        margin-top: 10px;
+        padding: 0; /* Ensures consistent padding */
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda de Motos</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../catalogo.html">Catálogo</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li onclick="verCarrito()"><a href="#">🛒 Carrito (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header> <br><br>
+
+  <div class="container">
+    <h1>BMW S 310gs XR</h1>
+    <p>BMW S 310gs XR 2024-2025
+       999 cm³, 227 kg, 170 cv21.780 €
+       Despiértate con una sonrisa en la cara. Cada día representa una oportunidad para probar algo nuevo con la BMW G 310 R. Gracias al motor optimizado con Ride by Wire y el embrague anti-hopping podrás conducir de forma intuitiva y ágil al trabajo, a una reunión o fuera de la ciudad. Vive la agilidad, la facilidad de manejo y la deportividad de la G 310 R y continúa creciendo con ella, viviendo nuevas experiencias día a día..</p>
+    <img src="https://ruta40.com.co/wp-content/uploads/G-310-GS-Sport.jpg" alt="imagen6" width="500" height="300"
+    >
+  </div>
+</body>
+</html>
